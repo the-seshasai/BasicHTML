@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.container {
+  max-width: 749px;
+  max-height: 562px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 10%;
+  overflow: scroll;
+}
+.image {

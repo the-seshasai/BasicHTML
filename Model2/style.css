@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+}
+.container {
+  background-color: white;
+  max-width: 900px;
+  margin: 0% auto;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 10px 10px 5px;
+}
+.content {
+  padding: 30px;
+  font-weight: bold;
+}
+.mini {
+  font-size: 20px;
+}
+.form_container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  justify-content: space-evenly;
+}
+.form_control {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+input,
+select,
+textarea {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 2px;
+  background-color: #ff5c4d;
+  color: white;
+  box-shadow: none;
+}
+.button_container {
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  font-size: 20px;
+  padding: 10px;
+  background-color: orange;
+  font-weight: bold;
+}
+button:hover {
+  font-size: 25px;
+  color: white;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  transition-timing-function: ease-out;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+input::file-selector-button {
+  color: white;
+  padding: 0.5em;
+  border: thin solid grey;
+  background-color: #ff5c4d;
+  border-radius: 3px;
+}
